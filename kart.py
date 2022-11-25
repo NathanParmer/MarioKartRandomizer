@@ -8,6 +8,10 @@ if __name__ == '__main__':
                                      kart combinations from the command line")
     parser.add_argument("--players", default=1, type=int, 
                         help="Number of players")
+    parser.add_argument("--team",
+                        default=False,
+                        type=bool,
+                        help="If players are assigned a team")
     parser.add_argument("--characters", 
                         default="./base_game/characters.json", 
                         type=str,
@@ -35,6 +39,8 @@ if __name__ == '__main__':
     with open(args.gliders, 'r') as glider_json:
         gliders = json.load(glider_json)
 
+    teams = ["Red", "Blue"]
+
     for i in range(args.players):
         character   = random.choice(list(characters.keys()))
 
@@ -48,8 +54,10 @@ if __name__ == '__main__':
         glider       = list(gliders.keys())[glider_idx]
 
         print(f"Player {i + 1}:")
-        print("Character:", character)
-        print(f"Body ({body_idx}): {body}")
-        print(f"Wheels ({wheel_idx}): {wheel}")
-        print(f"Gliders ({glider_idx}): {glider}")
+        if (args.team):
+            print(f"  Team: {random.choice(teams)}")
+        print(f"  Character: {character}")
+        print(f"  Body ({body_idx}): {body}")
+        print(f"  Wheels ({wheel_idx}): {wheel}")
+        print(f"  Gliders ({glider_idx}): {glider}")
         print("")
