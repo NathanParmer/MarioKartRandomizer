@@ -13,8 +13,7 @@ if __name__ == '__main__':
                         type=str,
                         help="Path of the tracks json")
     parser.add_argument("--replace",
-                        default=False,
-                        type=bool,
+                        action='store_true',
                         help="If the track should be replaced upon selection")
     args = parser.parse_args()
 
@@ -25,7 +24,7 @@ if __name__ == '__main__':
         n = len(tracks)
     else:
         n = args.number
-        
+
     for i in range(n):
         a = input("")
         track = random.choice(list(tracks.keys()))

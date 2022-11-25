@@ -9,8 +9,7 @@ if __name__ == '__main__':
     parser.add_argument("--players", default=1, type=int, 
                         help="Number of players")
     parser.add_argument("--team",
-                        default=False,
-                        type=bool,
+                        action='store_true',
                         help="If players are assigned a team")
     parser.add_argument("--characters", 
                         default="./base_game/characters.json", 
