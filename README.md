@@ -4,6 +4,8 @@ As I was playing Mario Kart with my family during Thanksgiving, we realized that
 
 I created this with Mario Kart 8 Deluxe and VS races in mind. If there's interest, I'm open to adding functionality for other titles or game modes in the series. I'd like to experiment with creating a GUI to make it more accessible, as well.
 
+The characters, karts, tracks, and items are all copyrighted by Nintendo, and I do not claim ownership over their work. This is a free aid intended as a supplement to the game, and I do not profit off of it. 
+
 ## Character Selection, Kart Creation, and Team Assignment
 The `kart.py` script handles character and kart creation, as well as team assignment if desired. See usage below:
 ```

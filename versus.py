@@ -44,7 +44,8 @@ if __name__ == '__main__':
                  "Bob-ombs Only",
                  "No Items",
                  "No Items or Coins",
-                 "Frantic Items"]
+                 "Frantic Items",
+                 "Custom Items"]
         print(f"Items: {random.choice(items)}")
 
     if args.com:

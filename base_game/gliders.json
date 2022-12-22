@@ -1,17 +1,47 @@
 {
-    "Super Glider": {}, 
-    "Cloud Glider": {}, 
-    "Wario Wing": {}, 
-    "Waddle Wing": {}, 
-    "Peach Parasol": {}, 
-    "Parachute": {}, 
-    "Parafoil": {}, 
-    "Flower Glider": {}, 
-    "Bowser Kite": {}, 
-    "Plane Glider": {}, 
-    "MKTV Parafoil": {}, 
-    "Gold Glider": {}, 
-    "Hylian Kite": {}, 
-    "Paraglider": {}, 
-    "Paper Glider": {}
+    "Super Glider": {
+        "Enable": true
+    },
+    "Cloud Glider": {
+        "Enable": true
+    },
+    "Wario Wing": {
+        "Enable": true
+    },
+    "Waddle Wing": {
+        "Enable": true
+    },
+    "Peach Parasol": {
+        "Enable": true
+    },
+    "Parachute": {
+        "Enable": true
+    },
+    "Parafoil": {
+        "Enable": true
+    },
+    "Flower Glider": {
+        "Enable": true
+    },
+    "Bowser Kite": {
+        "Enable": true
+    },
+    "Plane Glider": {
+        "Enable": true
+    },
+    "MKTV Parafoil": {
+        "Enable": true
+    },
+    "Gold Glider": {
+        "Enable": true
+    },
+    "Hylian Kite": {
+        "Enable": true
+    },
+    "Paraglider": {
+        "Enable": true
+    },
+    "Paper Glider": {
+        "Enable": true
+    }
 }

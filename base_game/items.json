@@ -1,68 +1,68 @@
 {
-    "Standard": {
+    "Banana": {
         "Enable": true
     },
-    "Monster": {
+    "Triple Bananas": {
         "Enable": true
     },
-    "Roller": {
+    "Green Shell": {
         "Enable": true
     },
-    "Slim": {
+    "Triple Green Shells": {
         "Enable": true
     },
-    "Slick": {
+    "Red Shell": {
         "Enable": true
     },
-    "Metal": {
+    "Triple Red Shells": {
         "Enable": true
     },
-    "Button": {
+    "Spiny Shell": {
         "Enable": true
     },
-    "Off-Road": {
+    "Bob-omb": {
         "Enable": true
     },
-    "Sponge": {
+    "Mushroom": {
         "Enable": true
     },
-    "Wood": {
+    "Triple Mushrooms": {
         "Enable": true
     },
-    "Cushion": {
+    "Golden Mushroom": {
         "Enable": true
     },
-    "Blue Standard": {
+    "Bullet Bill": {
         "Enable": true
     },
-    "Hot Monster": {
+    "Blooper": {
         "Enable": true
     },
-    "Azure Roller": {
+    "Lightning": {
         "Enable": true
     },
-    "Crimson Slim": {
+    "Star": {
         "Enable": true
     },
-    "Cyber Slick": {
+    "Fire Flower": {
         "Enable": true
     },
-    "Retro Off-Road": {
+    "Boomerang Flower": {
         "Enable": true
     },
-    "Gold Tires": {
+    "Piranha Plant": {
         "Enable": true
     },
-    "GLA Tires": {
+    "Super Horn": {
         "Enable": true
     },
-    "Triforce Tires": {
+    "Crazy 8": {
         "Enable": true
     },
-    "Ancient Tyres": {
+    "Coin": {
         "Enable": true
     },
-    "Leaf Tires": {
+    "Boo": {
         "Enable": true
     }
 }
