@@ -5,5 +5,16 @@
     "2": [
         "Left",
         "Right"
+    ],
+    "3": [
+        "Black",
+        "Red",
+        "Blue"
+    ],
+    "4": [
+        "Black Left",
+        "Black Right",
+        "Red",
+        "Blue"
     ]
 }
